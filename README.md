@@ -25,6 +25,26 @@ When you return 0 to the system, you are saying “Everything went OK.” If you
 - Any complex program will involve dozens of files containing different functions.
 - Global variables are available to the code in every one of those files
 
+``` c
+#include <stdio.h>
+#include <stdlib.h>
+// Declare a global variable
+float lastTemperature;
+float fahrenheitFromCelsius(float cel)
+{
+    lastTemperature = cel;
+    float fahr = cel * 1.8 + 32.0;
+    printf("%f Celsius is %f Fahrenheit\n", cel, fahr);
+    return fahr;
+}
+int main(int argc, const char * argv[])
+{
+float freezeInC = 0;
+float freezeInF = fahrenheitFromCelsius(freezeInC);
+printf("Water freezes at %f degrees Fahrenheit\n", freezeInF); printf("The last temperature converted was %f\n", lastTemperature); return EXIT_SUCCESS;
+}
+```
+
 ## Static Variables
 
 - Sometimes sharing a variable between different files is what you want.
