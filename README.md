@@ -52,6 +52,8 @@ printf("Water freezes at %f degrees Fahrenheit\n", freezeInF); printf("The last 
 - To deal with multiple functions, we have static variables. 
 - A static Variable is like a global variable in that it is declare outside of any function. However a static variable is only accessible from the code in the file where it was declared. So you get the non-local, "exist outside of any function" benefit while avoiding the "you touched my variable!" issue.
 - Static variables have a property of preserving their value even after they are out of their scope! Hence, static variables preserve their previous value in their previous scope and are not initialized again in the new scope.
+- A static variable inside a function keeps its value between invocations.
+- These variables can be accessed anywhere inside a file.
 
 ``` c
 // Declare a static variable 
