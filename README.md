@@ -3,13 +3,22 @@ A function is a name associated with a chunk of code.
 
 # When should I use a function?
 
+When you find yourself repeating work that is very similar in nature (in this case, the words in the printf statement), you want to start thinking about a function as a better way of accomplishing the same task.
+
 # How do I write and use a function?
 
 # How functions work together
 
 # Local variables, frames, and the stack
 
+- Every function can have local variables. Local variables are variables declared inside a function.  They exist only during the execution of that function and can only be accessed from within that function.
+- “When a function is called, its frame is created on top of the stack. When the function finishes executing, its frame is popped off the stack and destroyed.”
+
+### What happens to my local variables when the function finishes executing ?
+
 # Recursion
+
+- Can a function call itself? You bet! We call that recursion.
 
 # Looking at the frames in the debugger
 
