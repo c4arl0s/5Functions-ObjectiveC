@@ -33,7 +33,8 @@ When you return 0 to the system, you are saying “Everything went OK.” If you
 - A static Variable is like a global variable in that it is declare outside of any function. However a static variable is only accessible from the code in the file where it was declared. So you get the non-local, "exist outside of any function" benefit while avoiding the "you touched my variable!" issue.
 
 ``` c
-// Declare a static variable static float lastTemperature;
+// Declare a static variable 
+static float lastTemperature;
 ```
 
 
