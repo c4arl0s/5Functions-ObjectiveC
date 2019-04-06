@@ -54,6 +54,7 @@ printf("Water freezes at %f degrees Fahrenheit\n", freezeInF); printf("The last 
 - Static variables have a property of preserving their value even after they are out of their scope! Hence, static variables preserve their previous value in their previous scope and are not initialized again in the new scope.
 - A static variable inside a function keeps its value between invocations.
 - These variables can be accessed anywhere inside a file.
+- Static variables get their memory in data segment of the program.
 
 ``` c
 // Declare a static variable 
