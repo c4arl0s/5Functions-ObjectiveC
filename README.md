@@ -61,6 +61,8 @@ printf("Water freezes at %f degrees Fahrenheit\n", freezeInF); printf("The last 
 static float lastTemperature;
 ```
 
+# Example of Static Variables
+
 ``` c
 #include <stdio.h>
 
