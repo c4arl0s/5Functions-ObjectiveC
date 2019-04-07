@@ -22,6 +22,8 @@ When you find yourself repeating work that is very similar in nature (in this ca
 
 # Looking at the frames in the debugger
 
+You can use the debugger to browse the frames on the stack. 
+
 # return
 
 When you return 0 to the system, you are saying “Everything went OK.” If you are terminating the program because something has gone wrong, you’ll return 1.
