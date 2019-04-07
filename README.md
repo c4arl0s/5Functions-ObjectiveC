@@ -22,7 +22,13 @@ When you find yourself repeating work that is very similar in nature (in this ca
 
 # Looking at the frames in the debugger
 
-You can use the debugger to browse the frames on the stack. 
+- You can use the debugger to browse the frames on the stack. 
+- A breakpoint is a location in code where you want the debugger to pause the execution of your program.
+- Debug navigator shows all the frames currently on the stack, also called a stack trace.
+- In the stack trace, frames are identified by the name of their function.
+- At the bottom of the stack, you will, of course, find the frame for main().
+- We just took a quick look at the debugger here to demonstrate how frames work. 
+
 
 # return
 
